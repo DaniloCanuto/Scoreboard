@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/1b/f4/17/1bf417256680418107200fce0e4b5e7b.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home {
+    background-color: #1B244A;
+    height: 400px;
+    width: 575px;
+    border: 10px solid #EEEEEE;;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+#guest {
+    background-color: #1B244A;
+    height: 400px;
+    width: 575px;
+    border: 10px solid #EEEEEE;;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+h3 {
+    margin-top: 50px;
+    color: #EEEEEE;
+}
+
+#home-score {
+    font-family: Cursed Timer ULiL;
+    background-color: #080001;
+    color: #F94F6D;
+    margin: 0 auto;
+    font-size: 90px;
+    line-height: 150px;
+    width: 140px;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+}
+
+#guest-score {
+    font-family: Cursed Timer ULiL;
+    background-color: #080001;
+    color: #F94F6D;
+    margin: 0 auto;
+    font-size: 90px;
+    line-height: 150px;
+    width: 140px;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+}
+
+
+.sum-btns {
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 0px;
+    margin: 0 auto;
+}
+
+.sum-btn {
+    background-color: #317b22;
+    font-family: Cursed Timer ULiL;
+    font-size: 20px;
+    color: #EEEEEE;
+    height: 35px;
+    width: 40px;
+    margin-top: 25px;
+    border: 2px solid #EEEEEE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub-btns {
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 0px;
+    margin: 0 auto;
+}
+
+.sub-btn {
+    background-color: #941b0c;
+    font-family: Cursed Timer ULiL;
+    font-size: 20px;
+    color: #EEEEEE;
+    height: 35px;
+    width: 40px;
+    margin-top: 70px;
+    border: 2px solid #EEEEEE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#reset {
+    
+}
+
+#reset-btn {
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 20px;
+    border: 4px solid #EEEEEE;
+    border-radius: 5px;
+    margin: 25px auto;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+}

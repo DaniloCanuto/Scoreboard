@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home">
+                <h3>HOME</h3>
+                <p class="score-text" id="home-score">0</p>
+                <div class="sum-btns">
+                    <button class="sum-btn" id="add-one-home" onclick="homePlusOne()">+1</button>
+                    <button class="sum-btn" id="add-two-home" onclick="homePlusTwo()">+2</button>
+                    <button class="sum-btn" id="add-three-home" onclick="homePlusThree()">+3</button>
+                </div>
+                <div class="sub-btns">
+                    <button class="sub-btn" id="sub-one-home" onclick="homeSubOne()">-1</button>
+                    <button class="sub-btn" id="sub-two-home" onclick="homeSubTwo()">-2</button>
+                    <button class="sub-btn" id="sub-three-home" onclick="homeSubThree()">-3</button>
+                </div>
+            </div>
+            <div id="guest">
+                <h3>GUEST</h3>
+                <p class="score-text" id="guest-score">0</p>
+                <div class="sum-btns">
+                    <button class="sum-btn" id="add-one-guest" onclick="guestPlusOne()">+1</button>
+                    <button class="sum-btn" id="add-two-guest" onclick="guestPlusTwo()">+2</button>
+                    <button class="sum-btn" id="add-three-guest" onclick="guestPlusThree()">+3</button>
+                </div>
+                <div class="sub-btns">
+                    <button class="sub-btn" id="sub-one-guest" onclick="guestSubOne()">-1</button>
+                    <button class="sub-btn" id="sub-two-guest" onclick="guestSubTwo()">-2</button>
+                    <button class="sub-btn" id="sub-three-guest" onclick="guestSubThree()">-3</button>
+                </div>
+            </div>
+        </div>
+        <div id="reset">
+            <button id="reset-btn" onclick="resetGame()">RESET GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
